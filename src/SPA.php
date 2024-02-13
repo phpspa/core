@@ -2,7 +2,7 @@
 namespace SPA;
 use SPA\Env;
 use SPA\Route;
-class Gaucho{
+class SPA{
 	function run($routes=false){
 		new Env(ROOT.'/.env');	
 		ini_set("memory_limit",$_ENV['SITE_MEMORY']);
